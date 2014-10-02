@@ -17,7 +17,7 @@ public class Solution {
        Integer horizontalDifference = null;
 
        //Find princess and player
-       for(Integer i = 0; i < grid.length ; i++){
+       for(int i = 0; i < grid.length ; i++){
             String row = grid[i];
             if(row.contains("p")){
                 princessPosition = new Integer[]{i,row.indexOf("p")};
